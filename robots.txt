@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /*.jpg
+
+Sitemap: https://karyuu0421.github.io/sitemap.xml
