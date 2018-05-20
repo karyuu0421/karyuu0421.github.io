@@ -440,7 +440,7 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
     background-color: #232323;
     color: #fff;
     padding-top: 2.5em;
-    padding-bottom: 4em;
+    padding-bottom: 10em;
 }
 
 .social-accounts {
