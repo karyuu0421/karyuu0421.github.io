@@ -5,11 +5,30 @@ body {
   line-height: 1.42857143;
 }
 
+
+#dibu {
+    background-color: #F8F8F8;
+    color:black;
+    clear: both;
+    text-align:center;
+    width: 1920px;
+    padding:5px; 
+}
+
+
 a {
   color: #72c02c;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
+
+#main-container1 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
 
 h1, .h1,
 h2, .h2,
@@ -19,6 +38,21 @@ h5, .h5,
 h6, .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+#header-container1 {
+    float: left;
+    width: 25%;
+    height: auto%;
+   position: absolute;
+            top: 0;
+            right: 75%;
+            bottom: 0;
+   
+    background-color: #fff;
+    overflow: hidden;
+    padding: 30px 0 0 0;
+}
+
 
 h1,
 .h1,
@@ -205,6 +239,15 @@ ul {
   border: none;
   border-top: 1px solid #EFEFEF;
 }
+
+
+.navbar-ada1 {
+  
+  border-radius: 0;
+  border: none;
+  border-top: 1px solid #EFEFEF;
+}
+
 .navbar-ada .navbar-brand {
   color: #777;
 }
@@ -383,6 +426,15 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
     vertical-align: middle;
 }
 
+.social-accounts ll {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1em;
+    padding: 0;
+    vertical-align: middle;
+}
+
+
 .section-profile {
     width: 1920px;
     background-color: #232323;
@@ -400,8 +452,9 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
     display: table-cell;
     vertical-align: top;
 }
+
 #posts {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .cover-image {
@@ -418,7 +471,7 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
   margin: 0px;
   height: auto;
 
-  overflow: hidden;
+ 
 
   -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
   -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
@@ -430,7 +483,7 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
 #posts .tags {
   background: #fff;
   text-align: center;
-  margin: 20px;
+  margin:  20px;
   padding: 10px 0;
   -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
   -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
@@ -459,12 +512,12 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
 @media (min-width: 992px) {
   #posts .post,
   #posts .quote {
-    height: 340px;
+    height: 350px;
   }
 
   #posts .post.featured,
   #posts .post.big {
-    height: auto;
+  
   }
 
   #posts .post.big .caption,
@@ -626,6 +679,31 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
   text-align: center;
   padding: 0;
 }
+
+#footer1 {
+      padding-top: 2%;
+    padding-left: 32%;
+  
+}
+
+#footer2 {
+  background: #fff;
+  text-align: center;
+  padding: 0;
+}
+
+#front23 {
+color: #666666;padding-left: 3.3em;font-size: 15px;font-weight: normal;font-family: 	Microsoft YaHei;
+}
+
+#front232 {
+color: #666666;
+}
+
+#front231 {
+color: #666666;padding-left: 4em;font-size: 15px;font-weight: normal;font-family: 	Microsoft YaHei;
+}
+
 
 #subscribe {
   border-bottom: 1px solid #e7e7e7;
