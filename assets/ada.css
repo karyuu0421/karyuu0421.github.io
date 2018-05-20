@@ -457,6 +457,9 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
   margin-top: 10px;
 }
 
+#posts1 {
+  margin-top: 0px;
+}
 .cover-image {
     width: 100%;
     max-height: 1024px;
