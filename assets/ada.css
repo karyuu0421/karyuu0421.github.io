@@ -630,6 +630,9 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
   margin: 40px auto 20px;
 }
 
+
+
+
 #single .caption,
 #single .comments,
 #single .related {
@@ -640,6 +643,18 @@ fieldset[disabled] .navbar-ada .btn-link:focus {
   -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
   box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
 }
+
+#single .captions,
+#single .comments,
+#single .related {
+  background: #fff;
+  margin: 40px auto;
+  
+  -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
+  -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
+  box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.03);
+}
+
 
 #single .caption {
   padding-bottom: 40px;
